@@ -16,25 +16,14 @@
 				
 				body
 				{
+					color: #593535;
+					background-color: #ffffff;
 					padding: 0px;
 					margin: 0px;
 					height: 100%;
-					color: #333333;
-					background-color: #FBB9CC;
-
-					font-family: 'open-sans', sans-serif;
-						font-weight: 300;
-						font-style: normal;
-						font-size: 14pt;
 				}
 
-				h1
-				{
-					
-					font-size: 18pt;
-					font-family: 'Georgia';
-				}
-
+		
 				h2
 				{
 					
@@ -84,15 +73,7 @@
 					background-position: right 20px bottom 50px;
 				}
 
-				.cLogo
-				{
-					background-image: url('KKLogo@2x.png');
-					background-repeat: no-repeat;
-					width: 158px;
-					height: 158px;
-					background-size: 150px 150px;
-					/*margin: 30px auto 10px auto;*/
-				}
+				
 
 				.cBye
 				{
@@ -111,30 +92,272 @@
 					margin: 0px 4px;
 				}
 
+
+
+
+				.cFixWidth
+				{
+					max-width: 650px;
+					margin: auto;
+				}
+
+
+				.cHeader
+				{
+					padding: 20px;
+					/*max-width: 800px;*/
+					margin: auto;
+
+					background-image: url('Image/BG.png');
+					/*background-repeat: no-repeat;*/
+					background-size: 183px 245px;
+					/*background-position: right 20px bottom 50px;*/
+					background-color: #9483bd;
+				}
+
+				.cLogo
+				{
+					background-image: url('Image/KK-Logo.png');
+					background-repeat: no-repeat;
+					width: 189px;
+					height: 190px;
+					background-size: 189px 190px;
+					margin: auto;
+				}
+
+				.cSecond
+				{
+					padding-top: 40px;
+					padding-bottom: 40px;
+					background-color: #f6dae3;
+					text-align: center;
+					
+
+					
+					font-family: "Quicksand", sans-serif;
+					  font-optical-sizing: auto;
+					  font-weight: 600;
+					  font-style: normal;
+
+				}
+
+				h1
+				{
+					/*Georgia, Bold Italic, 28pt*/
+					font-size: 28pt;
+					font-family: 'Georgia';
+				}
+
+				.cSubBody
+				{
+				}
+
+				.cCenter
+				{
+					text-align: center;
+				}
+
+				.cShopElement
+				{
+					display: inline-block;
+					/*width: 190px;*/
+					margin: 7px;
+
+				}
+
+				.cShopElementTop
+				{
+					border-style: solid;
+					border-width: 5px 5px 0px 5px;
+					border-radius: 15px 15px 0px 0px;
+
+
+					
+					background-repeat: no-repeat;
+					width: 190px;
+					height: 180px;
+					background-size: 190px 180px;
+					margin: auto;
+				}
+
+				.cShopElementBottom
+				{
+					border-style: solid;
+					border-width: 5px;
+					border-radius: 0px 0px 15px 15px;
+					color: #fff;
+					font-family: "Quicksand", sans-serif;
+					font-optical-sizing: auto;
+					font-weight: 600;
+					font-style: normal;
+					height: 70px;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+				}
+
+				.cShopElementBody
+				{
+					font-size: 10px;
+
+				}
+
+				.cRedbubble .cShopElementTop, .cRedbubble .cShopElementBottom { background-color: #a18fcc; border-color: #a18fcc; }
+				.cRedbubble .cShopElementTop { background-image: url('Image/ShopRB.jpg'); }
+
+				.cSpoonflower .cShopElementTop, .cSpoonflower .cShopElementBottom { background-color: #86bfbc; border-color: #86bfbc; }
+				.cSpoonflower .cShopElementTop { background-image: url('Image/ShopSF.jpg'); }
+
+				.cKoFi .cShopElementTop, .cKoFi .cShopElementBottom { background-color: #8aa1e6; border-color: #8aa1e6; }
+				.cKoFi .cShopElementTop { background-image: url('Image/ShopKoFi.jpg'); }
+
+
+				.cThird
+				{
+					padding-top: 40px;
+					padding-bottom: 40px;
+					background-color: #ffdd59;
+				}
+
+				.cAbout
+				{
+					display: flex;
+  					flex-wrap: wrap;
+				}
+.cAboutAbout {
+  flex-grow: 1;
+					flex-shrink: 1;
+					flex-basis: 300px;
+}
+				
+
+				.cFace
+				{
+					background-image: url('Image/KK-ProfilePicture.png');
+					background-repeat: no-repeat;
+					width: 200px;
+					height: 200px;
+					background-size: 200px 200px;
+					display: inline-block;
+
+					flex-grow: 0;
+					flex-shrink: 0;
+					flex-basis: 200px;
+				}
+
+				.cFooter
+				{
+					background-color: #f6dae3;
+				}
+
 		</style>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand:400,700" rel="stylesheet" type="text/css" />
+		<!--<link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand:400,700" rel="stylesheet" type="text/css" />-->
+		
 		<!--<link href="CSS/lightbox.css" media="screen" rel="stylesheet" type="text/css" />
 		<script src="JS/jquery-1.7.2.min.js"></script><script src="JS/lightbox.js"></script>-->
 
-		<script type="text/javascript">(function(c,a){window.mixpanel=a;var b,d,h,e;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.1.min.js';d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function d(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var g=a;"undefined"!==typeof f?
+		<script type="text/javascript">/**(function(c,a){window.mixpanel=a;var b,d,h,e;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.1.min.js';d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function d(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var g=a;"undefined"!==typeof f?
 			g=a[f]=[]:f="mixpanel";g.people=g.people||[];h="disable track track_pageview track_links track_forms register register_once unregister identify name_tag set_config people.identify people.set people.increment".split(" ");for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.1})(document,window.mixpanel||[]);
-			mixpanel.init("eac205370c85c2fb92e116ad748bd451");
+			mixpanel.init("eac205370c85c2fb92e116ad748bd451");*/
 			</script>
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQNTDSBR3E"></script>
 		<script>
-		  window.dataLayer = window.dataLayer || [];
+		  /*window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
 		  gtag('js', new Date());
 
-		  gtag('config', 'G-FQNTDSBR3E');
+		  gtag('config', 'G-FQNTDSBR3E');*/
 		</script>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
 	</head>
 	<body onload="javascript:mixpanel.track('page viewed', {'page name' : document.title, 'url' : window.location.pathname});">
+		<div class="cHeader"><div class="cLogo"></div></div>
+		<div class="cSecond">
+			Cute gifts and pet portraits for your inner child<br>
+			by artist + surface designer, Kristy Kate.
+		</div>
+		<div class='cFixWidth'>
+			<h1>Shop Kristy Kate Designs</h1>
+			<div class="cCenter">
+				<div class="cShopElement cRedbubble">
+					<div class="cShopElementTop"></div>
+					<div class="cShopElementBottom">
+						<div class="cShopElementTitle">Redbubble</div>
+						<div class="cShopElementBody">Gifts + Accessories</div>
+					</div>	
+				</div>
+
+				<div class="cShopElement cSpoonflower">
+					<div class="cShopElementTop"></div>
+					<div class="cShopElementBottom">
+						<div class="cShopElementTitle">Spoonflower</div>
+						<div class="cShopElementBody">Fabric + Wallpaper</div>
+					</div>	
+				</div>
+
+				<div class="cShopElement cKoFi">
+					<div class="cShopElementTop"></div>
+					<div class="cShopElementBottom">
+						<div class="cShopElementTitle">Ko-Fi</div>
+						<div class="cShopElementBody">Pet Portrait Commissions</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+
+		<div class="cThird">
+			<div class='cFixWidth'>
+				<h1>Enquiries</h1>
+				<div class="cSubBody">
+					Have a playful project in mind or a design you'd like to license?<br>
+					Let's chat! Email Kristy at <a href="mailto:kristy@kristykate.com">kristy@kristykate.com</a>
+				</div>
+			</div>
+		</div>
+
+		<div class='cFixWidth'>
+			<div class="cAbout">
+				<div class="cAboutAbout">
+				<h1>About the Artist</h1>
+				
+					Hi, I'm Kristy Kate, artist and surface designer based in Melbourne, Australia. I create playful prints and patterns that celebrate the joy of childhood. My designs are inspired by the inner child, nature and all things cute. I love drawing our animal friends and exploring fun shapes and colours that speak to kids and the young at heart. There's nothing quite like a cute design to make your day shine!
+
+					x Kristy Kate
+				</div>
+				<div class="cFace"></div>
+			</div>
+			
+		</div>
+
+		<div class="cFooter">
+			<div class='cFixWidth'>
+
+				<div>
+					<div>
+						Made in Melbourne (Naarm)
+						with the joy of childhood. :)
+					</div>
+					<div>
+						Let’s be friends!
+						Instagram  |  Facebook
+					</div>
+				</div>
+				<div>
+					© 2024 Kristy Kate.
+				</div>
+			</div>
+		</div>
+
+
 		<div class="cBody">
 
-			<div class="cLogo"></div>
+			
 
 			<h1>Hello there!</h1>
 
